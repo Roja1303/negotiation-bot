@@ -47,12 +47,21 @@ python -m venv venv
 
 
 
-**Integration of the Model**
+
+
+
+**INTEGRATION OF THE MODEL**
 The model is integrated using the google-generative-ai package. The bot listens for HTTP POST requests to negotiate prices. Upon receiving a request, it generates a response based on the user's message and the current price of the product.
 
 The main function to interact with the model is get_negotiation_response, which constructs a prompt and calls the generative model to fetch a suitable response.
 
-**API Endpoints
+
+
+
+
+
+
+**API ENDPOINTS
 POST /negotiate**
 This endpoint accepts negotiation requests and returns a response from the bot.
 
@@ -74,6 +83,11 @@ bot_response: The bot's reply to the user's message.
 current_price: The current price of the product
 
 
+
+
+
+
+**EXAMPLE REQUEST**
 **i used cURL** OR even you can use **POSTMAN**
 To interact with your negotiation bot using the command prompt, you can use cURL commands :
 
